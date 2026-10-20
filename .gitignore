@@ -1,0 +1,36 @@
+# ==========================================
+# Datasets and Large Artifacts
+# ==========================================
+input/
+output/
+*.zip
+*.tar.gz
+*.csv
+
+# Exceptions: keep sample/column descriptions if any text-based
+!HomeCredit_columns_description.xlsx
+
+# ==========================================
+# Jupyter & Python Cache
+# ==========================================
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Environment & Dependencies
+# ==========================================
+.venv/
+venv/
+env/
+.env
+
+# ==========================================
+# OS & Editor Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
